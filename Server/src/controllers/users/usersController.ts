@@ -53,4 +53,46 @@ const registerUser = async (req: Request, res: Response) => {
 }
 };
 
-export default registerUser;
+const loginUser = async (req: Request, res: Response) => {
+  try{
+    const { name, password } = req.body;
+
+    if (!name || !password) {
+      return res.status(400).json({
+        error: 'Неверные данные',
+        message: 'Логин и пароль обязательны для авторизации'
+      });
+    }
+    const rawUsers = await fs.readFile('../database/users.json', 'utf8');
+    const users: User[] = JSON.parse(rawUsers);
+    
+    const user = users.find((u) => u.name === name && u.password === password);
+    if(!user){
+      return res.status(400).json({
+        error: 'Неверные данные',
+        message: 'Неверный логин или пароль'
+      });
+    }
+    (req.session as unknown as Record<string, unknown>)['user'] = {
+      id: user.id,
+      name: user.name
+    };
+    return res.status(200).json({
+      message: 'Успешная авторизация',
+      user: { id: user.id, name: user.name }
+    });
+  }
+  catch (e: unknown) {
+    if (e instanceof Error) {
+        return res.status(500).json({ error: e.message });
+    }
+    return res.status(500).json({ error: 'Неизвестная ошибка' });
+  }
+}
+
+const authControllers = {
+  registerUser,
+  loginUser
+};
+
+export default authControllers;

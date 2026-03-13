@@ -1,11 +1,13 @@
 import Router from 'express'
-import registerUser from '../controllers/users/usersController.ts'
+import auth from '../controllers/users/usersController.ts'     
 const router = Router()
 
 router.post('/registration', async (req, res) => {
-  registerUser(req,res);
+  auth.registerUser(req,res);
 });
-
+router.post('/login', async (req, res) => {
+  auth.loginUser(req,res);
+});
 
 router.get('/', (req, res) => {
     res.status(200).json({ message: 'Успех!' });
