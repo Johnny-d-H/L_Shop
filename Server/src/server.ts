@@ -1,23 +1,18 @@
-import express from 'express'
-import router from "./router/router.ts"
-import session from 'express-session'
+import express from 'express';
+import session from 'express-session';
+import router from './routes/router';
 
+const app = express();
 const PORT = 5000;
 
-const app = express()
-
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'your-secret-key',
+  secret: 'chernushin-secret',
   resave: false,
   saveUninitialized: false,
-  cookie: {
-    secure: process.env.NODE_ENV === 'production', 
-    httpOnly: true,
-    sameSite: 'lax',
-    maxAge: 10 * 60 * 1000
-  }
+  cookie: { secure: false, httpOnly: true, maxAge: 600000 }
 }));
-app.use(express.json())
-app.use(router)
 
-app.listen(PORT, () => console.log("SERVER STARTED ON PORT " + PORT))
+app.use(express.json());
+app.use('/api', router);
+
+app.listen(PORT, () => console.log(`🚀 Server on port ${PORT}`));
