@@ -34,6 +34,6 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(🚀 Server on port ${PORT});
-    console.log(🏠 Website: http://localhost:${PORT});
+    console.log(`🚀 Server on port ${PORT}`);
+    console.log(`🏠 Website: http://localhost:${PORT}`);
 });
