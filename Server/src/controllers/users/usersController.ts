@@ -20,7 +20,7 @@ const registerUser = async (req: Request, res: Response) => {
     const { name, password } = req.body;
 
     if (!name || !password) {
-      return res.status(409).json({
+      return res.status(400).json({
         error: 'Неверные данные',
         message: 'Имя и пароль обязательны для регистрации'
       });
@@ -30,7 +30,7 @@ const registerUser = async (req: Request, res: Response) => {
     const users: User[] = JSON.parse(rawUsers);
 
     if (users.some(user => user.name === name)) {
-      return res.status(409).json({
+      return res.status(400).json({
         error: 'Неверные данные',
         message: 'Пользователь с таким именем уже существует.'
       });
@@ -58,7 +58,7 @@ const loginUser = async (req: Request, res: Response) => {
     const { name, password } = req.body;
 
     if (!name || !password) {
-      return res.status(409).json({
+      return res.status(400).json({
         error: 'Неверные данные',
         message: 'Логин и пароль обязательны для авторизации'
       });
@@ -68,7 +68,7 @@ const loginUser = async (req: Request, res: Response) => {
     
     const user = users.find((u) => u.name === name && u.password === password);
     if(!user){
-      return res.status(409).json({
+      return res.status(400).json({
         error: 'Неверные данные',
         message: 'Неверный логин или пароль'
       });
@@ -89,26 +89,10 @@ const loginUser = async (req: Request, res: Response) => {
     return res.status(500).json({ error: 'Неизвестная ошибка' });
   }
 }
-const isAutorized = async (req: Request, res: Response) =>
-{
-  if (!req.session || !('user' in req.session)) {
-    return res.status(401).json({
-      error: 'Неавторизован',
-      message: 'Требуется авторизация для доступа к этому ресурсу'
-      });
-    }
-    if (!req.session.user) {
-      return res.status(401).json({
-        error: 'Неавторизован',
-        message: 'Требуется авторизация для доступа к этому ресурсу'
-      });
-    }
-    res.status(200).json({ message: 'Успех!' });
-}
+
 const authControllers = {
   registerUser,
-  loginUser,
-  isAutorized
+  loginUser
 };
 
 export default authControllers;
