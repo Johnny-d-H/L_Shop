@@ -1,0 +1,10 @@
+{
+  "name": "L_Shop",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd src && npx ts-node-dev --respawn --transpile-only server.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
