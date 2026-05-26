@@ -1,5 +1,7 @@
 import express from 'express';
 import session from 'express-session';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocument from './swagger';
 import router from './routes/router';
 import path from 'path';
 
@@ -14,6 +16,8 @@ app.use(session({
 }));
 
 app.use(express.json());
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const publicPath = path.resolve(__dirname, '../public');
 app.use(express.static(publicPath));
