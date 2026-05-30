@@ -1,0 +1,830 @@
+[
+  {
+    "id": 1779711057663,
+    "name": "seller1779711057658",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057673,
+    "name": "duplicate",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057688,
+    "name": "testuser",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057694,
+    "name": "buyer1779711057691",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057702,
+    "name": "seller1779711057699",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057733,
+    "name": "buyer1779711057730",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057738,
+    "name": "seller1779711057735",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057750,
+    "name": "user1779711057748",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057781,
+    "name": "seller1779711057778",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057811,
+    "name": "user1779711057808",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057813,
+    "name": "admin1779711057809",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057827,
+    "name": "admin1779711057825",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057834,
+    "name": "user1779711057832",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057837,
+    "name": "user1779711057836",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057842,
+    "name": "seller1779711057840",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057848,
+    "name": "user1779711057845",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057865,
+    "name": "user1779711057861",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057867,
+    "name": "user1779711057864",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057875,
+    "name": "seller1779711057870",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057876,
+    "name": "seller1779711057873",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057892,
+    "name": "user1779711057890",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057900,
+    "name": "sellerTag1779711057899",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057902,
+    "name": "user1_1779711057900",
+    "password": "pass1",
+    "role": "user"
+  },
+  {
+    "id": 1779711057906,
+    "name": "user2_1779711057904",
+    "password": "pass2",
+    "role": "user"
+  },
+  {
+    "id": 1779711057909,
+    "name": "reviewer1779711057908",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057920,
+    "name": "seller1779711057919",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057926,
+    "name": "buyer1779711057923",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057931,
+    "name": "user1779711057928",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057939,
+    "name": "seller1779711057937",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057947,
+    "name": "user1779711057945",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057962,
+    "name": "user1779711057959",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057979,
+    "name": "user1779711057977",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711057992,
+    "name": "user1779711057990",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711058006,
+    "name": "user1779711058005",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711329832,
+    "name": "testuser1779711329710",
+    "password": "password123",
+    "role": "user",
+    "email": "test@example.com",
+    "phone": "+1234567890"
+  },
+  {
+    "id": 1779711330077,
+    "name": "user1779711330071",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330139,
+    "name": "user1779711330133",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330176,
+    "name": "user1779711330171",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330213,
+    "name": "user1779711330207",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330257,
+    "name": "user1779711330251",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330280,
+    "name": "seller1779711330274",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330305,
+    "name": "user1779711330300",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330329,
+    "name": "sellerTag1779711330324",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330353,
+    "name": "reviewer1779711330347",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330387,
+    "name": "user1779711330381",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330408,
+    "name": "seller1779711330403",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330435,
+    "name": "user1779711330430",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330472,
+    "name": "user1779711330467",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330510,
+    "name": "user1779711330506",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330553,
+    "name": "user1779711330547",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711330589,
+    "name": "user1779711330584",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331060,
+    "name": "buyer1779711331051",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331078,
+    "name": "seller1779711331071",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331159,
+    "name": "buyer1779711331154",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331171,
+    "name": "seller1779711331166",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331221,
+    "name": "buyer1779711331215",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331233,
+    "name": "seller1779711331228",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331283,
+    "name": "buyer1779711331277",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331295,
+    "name": "seller1779711331289",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331347,
+    "name": "admin1779711331341",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331373,
+    "name": "admin1779711331368",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331402,
+    "name": "user1779711331395",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331413,
+    "name": "seller1779711331408",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331500,
+    "name": "user1779711331495",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331514,
+    "name": "seller1779711331507",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331574,
+    "name": "user1_1779711331569",
+    "password": "pass1",
+    "role": "user"
+  },
+  {
+    "id": 1779711331587,
+    "name": "user2_1779711331581",
+    "password": "pass2",
+    "role": "user"
+  },
+  {
+    "id": 1779711331621,
+    "name": "seller1779711331616",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711331634,
+    "name": "buyer1779711331629",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447422,
+    "name": "testuser1779711447389",
+    "password": "password123",
+    "role": "user",
+    "email": "test@example.com",
+    "phone": "+1234567890"
+  },
+  {
+    "id": 1779711447423,
+    "name": "buyer1779711447389",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447439,
+    "name": "seller1779711447434",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447461,
+    "name": "buyer1779711447458",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447466,
+    "name": "seller1779711447464",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447491,
+    "name": "buyer1779711447489",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447495,
+    "name": "seller1779711447493",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447515,
+    "name": "user1779711447511",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447519,
+    "name": "buyer1779711447516",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447525,
+    "name": "seller1779711447523",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447569,
+    "name": "user1779711447567",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447576,
+    "name": "admin1779711447573",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447586,
+    "name": "user1779711447583",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447588,
+    "name": "admin1779711447585",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447597,
+    "name": "user1779711447595",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447597,
+    "name": "user1779711447596",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447601,
+    "name": "seller1779711447599",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447607,
+    "name": "seller1779711447605",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447616,
+    "name": "user1779711447615",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447624,
+    "name": "user1779711447623",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447626,
+    "name": "sellerTag1779711447624",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447629,
+    "name": "seller1779711447627",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447637,
+    "name": "reviewer1779711447635",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447650,
+    "name": "user1_1779711447648",
+    "password": "pass1",
+    "role": "user"
+  },
+  {
+    "id": 1779711447655,
+    "name": "user2_1779711447653",
+    "password": "pass2",
+    "role": "user"
+  },
+  {
+    "id": 1779711447658,
+    "name": "seller1779711447657",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447665,
+    "name": "user1779711447664",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447666,
+    "name": "seller1779711447665",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447671,
+    "name": "buyer1779711447669",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447677,
+    "name": "user1779711447675",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447692,
+    "name": "user1779711447690",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447703,
+    "name": "user1779711447701",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711447714,
+    "name": "user1779711447712",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659638,
+    "name": "testuser1779711659601",
+    "password": "password123",
+    "role": "user",
+    "email": "test@example.com",
+    "phone": "+1234567890"
+  },
+  {
+    "id": 1779711659654,
+    "name": "seller1779711659650",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659676,
+    "name": "buyer1779711659673",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659681,
+    "name": "seller1779711659679",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659704,
+    "name": "buyer1779711659702",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659708,
+    "name": "seller1779711659707",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659726,
+    "name": "buyer1779711659724",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659728,
+    "name": "user1779711659726",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659732,
+    "name": "seller1779711659728",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659748,
+    "name": "user1779711659745",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659810,
+    "name": "admin1779711659806",
+    "password": "admin123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659814,
+    "name": "user1779711659811",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659820,
+    "name": "user1779711659818",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659824,
+    "name": "seller1779711659822",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659830,
+    "name": "user1779711659828",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659842,
+    "name": "user1779711659840",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659844,
+    "name": "user1779711659842",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659849,
+    "name": "seller1779711659846",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659851,
+    "name": "seller1779711659849",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659861,
+    "name": "user1779711659860",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659870,
+    "name": "sellerTag1779711659868",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659872,
+    "name": "user1_1779711659870",
+    "password": "pass1",
+    "role": "user"
+  },
+  {
+    "id": 1779711659875,
+    "name": "user2_1779711659874",
+    "password": "pass2",
+    "role": "user"
+  },
+  {
+    "id": 1779711659879,
+    "name": "reviewer1779711659877",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659890,
+    "name": "seller1779711659888",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659894,
+    "name": "buyer1779711659893",
+    "password": "pass123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659897,
+    "name": "user1779711659894",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659906,
+    "name": "seller1779711659904",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659913,
+    "name": "user1779711659911",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659925,
+    "name": "user1779711659924",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659939,
+    "name": "user1779711659937",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659951,
+    "name": "user1779711659950",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779711659964,
+    "name": "user1779711659961",
+    "password": "password123",
+    "role": "user"
+  },
+  {
+    "id": 1779726900520,
+    "name": "иван",
+    "password": "123",
+    "role": "admin"
+  },
+  {
+    "id": 1779790617198,
+    "name": "ив",
+    "password": "123",
+    "role": "user"
+  }
+]

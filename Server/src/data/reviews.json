@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1779517144757,
+    "productId": 1779517144750,
+    "userId": 1779517144741,
+    "username": "user1779517144737",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-23T06:19:04.757Z"
+  },
+  {
+    "id": 1779517144828,
+    "productId": 1779517144818,
+    "userId": 1779517144810,
+    "username": "user1779517144806",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-23T06:19:04.828Z"
+  },
+  {
+    "id": 1779517188626,
+    "productId": 1779517188618,
+    "userId": 1779517188609,
+    "username": "user1779517188605",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-23T06:19:48.626Z"
+  },
+  {
+    "id": 1779517188692,
+    "productId": 1779517188684,
+    "userId": 1779517188677,
+    "username": "user1779517188674",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-23T06:19:48.692Z"
+  },
+  {
+    "id": 1779517212813,
+    "productId": 1779517212808,
+    "userId": 1779517212804,
+    "username": "user1779517212803",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-23T06:20:12.813Z"
+  },
+  {
+    "id": 1779517212849,
+    "productId": 1779517212844,
+    "userId": 1779517212841,
+    "username": "user1779517212839",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-23T06:20:12.849Z"
+  },
+  {
+    "id": 1779709146266,
+    "productId": 1779709146261,
+    "userId": 1779709146257,
+    "username": "user1779709146255",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-25T11:39:06.266Z"
+  },
+  {
+    "id": 1779709146302,
+    "productId": 1779709146298,
+    "userId": 1779709146294,
+    "username": "user1779709146292",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-25T11:39:06.302Z"
+  },
+  {
+    "id": 1779709431832,
+    "productId": 1779709431821,
+    "userId": 1779709431828,
+    "username": "reviewer1779709431826",
+    "rating": 4,
+    "comment": "Very good",
+    "createdAt": "2026-05-25T11:43:51.832Z"
+  },
+  {
+    "id": 1779709431879,
+    "productId": 1779709431875,
+    "userId": 1779709431871,
+    "username": "user1779709431869",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-25T11:43:51.879Z"
+  },
+  {
+    "id": 1779709431921,
+    "productId": 1779709431918,
+    "userId": 1779709431912,
+    "username": "user1779709431910",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-25T11:43:51.921Z"
+  },
+  {
+    "id": 1779711057914,
+    "productId": 1779711057905,
+    "userId": 1779711057909,
+    "username": "reviewer1779711057908",
+    "rating": 4,
+    "comment": "Very good",
+    "createdAt": "2026-05-25T12:10:57.914Z"
+  },
+  {
+    "id": 1779711057972,
+    "productId": 1779711057967,
+    "userId": 1779711057962,
+    "username": "user1779711057959",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-25T12:10:57.972Z"
+  },
+  {
+    "id": 1779711058016,
+    "productId": 1779711058011,
+    "userId": 1779711058006,
+    "username": "user1779711058005",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-25T12:10:58.016Z"
+  },
+  {
+    "id": 1779711330364,
+    "productId": 1779711330340,
+    "userId": 1779711330353,
+    "username": "reviewer1779711330347",
+    "rating": 4,
+    "comment": "Very good",
+    "createdAt": "2026-05-25T12:15:30.364Z"
+  },
+  {
+    "id": 1779711330498,
+    "productId": 1779711330484,
+    "userId": 1779711330472,
+    "username": "user1779711330467",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-25T12:15:30.498Z"
+  },
+  {
+    "id": 1779711330614,
+    "productId": 1779711330600,
+    "userId": 1779711330589,
+    "username": "user1779711330584",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-25T12:15:30.614Z"
+  },
+  {
+    "id": 1779711447642,
+    "productId": 1779711447630,
+    "userId": 1779711447637,
+    "username": "reviewer1779711447635",
+    "rating": 4,
+    "comment": "Very good",
+    "createdAt": "2026-05-25T12:17:27.642Z"
+  },
+  {
+    "id": 1779711447685,
+    "productId": 1779711447680,
+    "userId": 1779711447677,
+    "username": "user1779711447675",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-25T12:17:27.685Z"
+  },
+  {
+    "id": 1779711447724,
+    "productId": 1779711447719,
+    "userId": 1779711447714,
+    "username": "user1779711447712",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-25T12:17:27.724Z"
+  },
+  {
+    "id": 1779711659886,
+    "productId": 1779711659874,
+    "userId": 1779711659879,
+    "username": "reviewer1779711659877",
+    "rating": 4,
+    "comment": "Very good",
+    "createdAt": "2026-05-25T12:20:59.886Z"
+  },
+  {
+    "id": 1779711659935,
+    "productId": 1779711659929,
+    "userId": 1779711659925,
+    "username": "user1779711659924",
+    "rating": 5,
+    "comment": "Excellent product!",
+    "createdAt": "2026-05-25T12:20:59.935Z"
+  },
+  {
+    "id": 1779711659976,
+    "productId": 1779711659970,
+    "userId": 1779711659964,
+    "username": "user1779711659961",
+    "rating": 4,
+    "comment": "Good product",
+    "createdAt": "2026-05-25T12:20:59.976Z"
+  },
+  {
+    "id": 1779732967705,
+    "productId": 1779517144498,
+    "userId": 1779726900520,
+    "username": "иван",
+    "rating": 5,
+    "comment": "я пенис",
+    "createdAt": "2026-05-25T18:16:07.705Z"
+  }
+]
