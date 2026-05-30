@@ -1,0 +1,109 @@
+{
+  "header": {
+    "title": "Dota 2 Market",
+    "login": "Sign In",
+    "logout": "Sign Out"
+  },
+  "sidebar": {
+    "items": "Items",
+    "cart": "Cart",
+    "myLots": "My Lots",
+    "inventory": "Purchases",
+    "admin": "Admin Panel"
+  },
+  "toolbar": {
+    "sell": "Sell",
+    "search": "Search items",
+    "sort": "Sort",
+    "sortAsc": "Price ↑",
+    "sortDesc": "Price ↓",
+    "apply": "Apply",
+    "inStock": "In Stock"
+  },
+  "detail": {
+    "selectItem": "Select an item to view",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "addReview": "Add Review",
+    "buyNow": "Buy Now",
+    "addToCart": "Add to Cart",
+    "quantity": "Quantity",
+    "price": "Price",
+    "count": "Available",
+    "posted": "Posted by",
+    "viewReviews": "View Reviews"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Sign Up",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "phone": "Phone",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "registerTitle": "Create Account",
+    "loginTitle": "Sign In to Your Account"
+  },
+  "cart": {
+    "empty": "Your cart is empty",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "update": "Update",
+    "total": "Total"
+  },
+  "myLots": {
+    "title": "My Lots",
+    "empty": "You haven't posted any items",
+    "edit": "Edit",
+    "delete": "Delete",
+    "delete_confirm": "Are you sure?"
+  },
+  "inventory": {
+    "title": "My Purchases",
+    "empty": "You haven't made any purchases yet"
+  },
+  "messages": {
+    "success": "Success",
+    "error": "Error",
+    "loginRequired": "Please sign in first",
+    "purchased": "Item purchased successfully",
+    "added": "Item added to cart",
+    "removed": "Item removed from cart",
+    "updated": "Cart updated",
+    "productAdded": "Product added successfully",
+    "productUpdated": "Product updated successfully",
+    "productDeleted": "Product deleted",
+    "reviewAdded": "Review submitted"
+  },
+  "recommendations": {
+    "title": "Recommended for you"
+  },
+  "locale": {
+    "detected": "You are from",
+    "question": "Is this correct?",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "addProduct": "Add Product",
+    "editProduct": "Edit Product",
+    "productName": "Product Name",
+    "productPrice": "Price",
+    "productCount": "Quantity",
+    "productHero": "Hero",
+    "productDescription": "Description",
+    "productRarity": "Rarity",
+    "productTags": "Tags (comma separated)",
+    "save": "Save",
+    "cancel": "Cancel",
+    "products": "Products",
+    "edit": "Edit",
+    "delete": "Delete",
+    "block": "Block",
+    "unblock": "Unblock",
+    "blocked": "Blocked",
+    "active": "Active"
+  }
+}

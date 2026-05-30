@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1779517144498,
+    "name": "Test Item",
+    "price": 100,
+    "count": 10,
+    "ownerId": 1779517144487
+  },
+  {
+    "id": 1779517144538,
+    "name": "Test Item",
+    "price": 100,
+    "count": 10,
+    "ownerId": 1779517144527
+  },
+  {
+    "id": 1779517144572,
+    "name": "Test Item",
+    "price": 100,
+    "count": 10,
+    "ownerId": 1779517144565
+  },
+  {
+    "id": 1779517144600,
+    "name": "User Product",
+    "price": 50,
+    "count": 5,
+    "ownerId": 1779517144592
+  },
+  {
+    "id": 1779517144678,
+    "name": "Arcana Sword",
+    "price": 500,
+    "count": 10,
+    "hero": "Phantom Assassin",
+    "description": "Rare arcana",
+    "rarity": "Mythical",
+    "ownerId": 1779517144669,
+    "blocked": false
+  }
+]

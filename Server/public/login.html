@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Вход / Регистрация</title>
+    <style>
+      body { font-family: Arial, sans-serif; background:#0b0c10; color:#fff; display:flex; align-items:center; justify-content:center; height:100vh; }
+      .card { background:#15171f; padding:20px; border-radius:6px; width:320px; border:1px solid #262a36 }
+      input { width:100%; padding:8px; margin:8px 0; border-radius:4px; border:1px solid #33384a; background:#0f1118; color:#fff }
+      button { padding:8px 12px; background:#e5532d; color:#fff; border:none; border-radius:4px; cursor:pointer }
+      .tabs { display:flex; gap:8px; margin-bottom:10px }
+      .tabs button { flex:1 }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="tabs">
+        <button id="show-login">Войти</button>
+        <button id="show-register">Регистрация</button>
+      </div>
+
+      <div id="login-form">
+        <input id="login-name" placeholder="Имя" />
+        <input id="login-pass" type="password" placeholder="Пароль" />
+        <button id="login-btn">Войти</button>
+      </div>
+
+      <div id="register-form" style="display:none" data-registration>
+        <input id="reg-name" placeholder="Имя" />
+        <input id="reg-pass" type="password" placeholder="Пароль" />
+        <input id="reg-email" placeholder="Email (опционально)" />
+        <input id="reg-phone" placeholder="Телефон (опционально)" />
+        <button id="reg-btn">Зарегистрироваться</button>
+      </div>
+
+      <p id="msg" style="margin-top:12px;color:#ffb3a7"></p>
+    </div>
+
+    <script>
+      const showLogin = document.getElementById('show-login');
+      const showRegister = document.getElementById('show-register');
+      const loginForm = document.getElementById('login-form');
+      const regForm = document.getElementById('register-form');
+      const msg = document.getElementById('msg');
+
+      showLogin.addEventListener('click', () => { loginForm.style.display='block'; regForm.style.display='none'; msg.textContent=''; });
+      showRegister.addEventListener('click', () => { loginForm.style.display='none'; regForm.style.display='block'; msg.textContent=''; });
+
+      async function postJson(url, payload) {
+        const res = await fetch(url, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload) });
+        return res;
+      }
+
+      document.getElementById('login-btn').addEventListener('click', async () => {
+        const name = document.getElementById('login-name').value;
+        const password = document.getElementById('login-pass').value;
+        if (!name || !password) { msg.textContent='Введите имя и пароль'; return; }
+        const res = await postJson('/api/login', { name, password });
+        const data = await res.json().catch(()=>({ message:'Server error' }));
+        if (res.ok) { msg.style.color='#9fffa1'; msg.textContent='Вход успешен'; setTimeout(()=>location.href='/',400); }
+        else { msg.style.color='#ffb3a7'; msg.textContent = data.message || 'Ошибка'; }
+      });
+
+      document.getElementById('reg-btn').addEventListener('click', async () => {
+        const name = document.getElementById('reg-name').value;
+        const password = document.getElementById('reg-pass').value;
+        const email = document.getElementById('reg-email').value;
+        const phone = document.getElementById('reg-phone').value;
+        if (!name || !password) { msg.textContent='Введите имя и пароль'; return; }
+        const res = await postJson('/api/register', { name, password, email, phone });
+        const data = await res.json().catch(()=>({ message:'Server error' }));
+        if (res.status === 201) { msg.style.color='#9fffa1'; msg.textContent='Регистрация успешна'; setTimeout(()=>location.href='/',400); }
+        else { msg.style.color='#ffb3a7'; msg.textContent = data.message || 'Ошибка'; }
+      });
+    </script>
+  </body>
+</html>

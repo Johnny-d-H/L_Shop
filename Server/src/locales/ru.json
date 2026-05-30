@@ -1,0 +1,109 @@
+{
+  "header": {
+    "title": "Dota 2 Market",
+    "login": "Войти",
+    "logout": "Выйти"
+  },
+  "sidebar": {
+    "items": "Товары",
+    "cart": "Корзина",
+    "myLots": "Мои лоты",
+    "inventory": "Покупки",
+    "admin": "Панель администратора"
+  },
+  "toolbar": {
+    "sell": "Продать",
+    "search": "Поиск по товарам",
+    "sort": "Сортировка",
+    "sortAsc": "Цена ↑",
+    "sortDesc": "Цена ↓",
+    "apply": "Применить",
+    "inStock": "В наличии"
+  },
+  "detail": {
+    "selectItem": "Выберите товар для просмотра",
+    "rating": "Оценка",
+    "reviews": "Отзывы",
+    "addReview": "Добавить отзыв",
+    "buyNow": "Купить сейчас",
+    "addToCart": "В корзину",
+    "quantity": "Количество",
+    "price": "Цена",
+    "count": "В наличии",
+    "posted": "Выставил",
+    "viewReviews": "Показать отзывы"
+  },
+  "auth": {
+    "login": "Вход",
+    "register": "Регистрация",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "email": "Email",
+    "phone": "Телефон",
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "registerTitle": "Создать аккаунт",
+    "loginTitle": "Вход в аккаунт"
+  },
+  "cart": {
+    "empty": "Ваша корзина пуста",
+    "checkout": "Оформить заказ",
+    "remove": "Удалить",
+    "update": "Обновить",
+    "total": "Итого"
+  },
+  "myLots": {
+    "title": "Мои лоты",
+    "empty": "Вы не выставляли товары",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "delete_confirm": "Вы уверены?"
+  },
+  "inventory": {
+    "title": "Мои покупки",
+    "empty": "Вы еще ничего не купили"
+  },
+  "messages": {
+    "success": "Успешно",
+    "error": "Ошибка",
+    "loginRequired": "Сначала войдите в аккаунт",
+    "purchased": "Товар успешно куплен",
+    "added": "Товар добавлен в корзину",
+    "removed": "Товар удален из корзины",
+    "updated": "Корзина обновлена",
+    "productAdded": "Товар добавлен",
+    "productUpdated": "Товар обновлен",
+    "productDeleted": "Товар удален",
+    "reviewAdded": "Отзыв добавлен"
+  },
+  "recommendations": {
+    "title": "Рекомендуем вам"
+  },
+  "locale": {
+    "detected": "Вы из",
+    "question": "Это правильно?",
+    "yes": "Да",
+    "no": "Нет"
+  },
+  "admin": {
+    "title": "Панель администратора",
+    "addProduct": "Добавить товар",
+    "editProduct": "Редактировать товар",
+    "productName": "Название товара",
+    "productPrice": "Цена",
+    "productCount": "Количество",
+    "productHero": "Персонаж",
+    "productDescription": "Описание",
+    "productRarity": "Редкость",
+    "productTags": "Теги (через запятую)",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "products": "Товары",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "block": "Заблокировать",
+    "unblock": "Разблокировать",
+    "blocked": "Заблокировано",
+    "active": "Активно"
+  }
+}
