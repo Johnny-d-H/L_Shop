@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dota 2 Market — SPA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo" id="logo">Dota 2 Market</div>
+    <div class="top-actions">
+      <span id="auth-username" class="auth-username"></span>
+      <a href="#login" id="auth-link-top" class="auth-btn">Войти</a>
+    </div>
+  </header>
+
+  <main class="app-grid">
+    <aside class="sidebar">
+      <div class="sidebar-group">
+        <a class="sidebar-item active" href="#items">Товары</a>
+        <a class="sidebar-item" href="#cart">Корзина</a>
+        <a class="sidebar-item" href="#my-lots">Мои лоты</a>
+        <a class="sidebar-item" href="#inventory">Покупки</a>
+
+      </div>
+      <div class="sidebar-footer">Dota 2 Market</div>
+    </aside>
+
+    <section id="main-section" class="list-view">
+      <div class="list-toolbar">
+        <button id="compose" class="btn-small">Продать</button>
+        <input id="search" placeholder="Поиск по товарам" />
+        <select id="sort">
+          <option value="">Сортировка</option>
+          <option value="price_asc">Цена ↑</option>
+          <option value="price_desc">Цена ↓</option>
+        </select>
+        <button id="apply-filters" class="btn-small">Применить</button>
+      </div>
+      <div id="list" class="list"></div>
+    </section>
+
+    <section id="detail-section" class="detail-view">
+      <div id="detail-content">Выберите товар для просмотра</div>
+    </section>
+
+  </main>
+
+  <div id="auth-modal" class="auth-modal hidden">
+    <div class="auth-modal-backdrop"></div>
+    <div class="auth-container">
+      <div class="auth-header">
+        <h2>Вход / Регистрация</h2>
+        <button id="auth-close" class="btn-small auth-close">Закрыть</button>
+      </div>
+      <div class="auth-tabs">
+        <button id="show-login" class="auth-tab active">Войти</button>
+        <button id="show-register" class="auth-tab">Регистрация</button>
+      </div>
+      <form id="login-form" class="auth-form">
+        <input id="login-name" placeholder="Имя" autocomplete="username" />
+        <input id="login-pass" type="password" placeholder="Пароль" autocomplete="current-password" />
+        <button type="button" id="login-btn" class="btn-small">Войти</button>
+      </form>
+      <form id="register-form" class="auth-form hidden" data-registration>
+        <input id="reg-name" placeholder="Имя" autocomplete="name" />
+        <input id="reg-pass" type="password" placeholder="Пароль" autocomplete="new-password" />
+        <input id="reg-email" type="email" placeholder="Email (опционально)" autocomplete="email" />
+        <input id="reg-phone" placeholder="Телефон (опционально)" autocomplete="tel" />
+        <button type="button" id="reg-btn" class="btn-small">Зарегистрироваться</button>
+      </form>
+      <p id="auth-msg" class="auth-message"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
